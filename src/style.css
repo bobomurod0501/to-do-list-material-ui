@@ -50,8 +50,8 @@ body{
 .modalBox{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap:30px
+    align-items:flex-start;
+    gap:50px
 }
 .input1{
     width: 1000px;
@@ -61,4 +61,7 @@ body{
     /* position: absolute; */
     color: red;
     /* margin-bottom: 50px; */
+}
+.modalRight{
+    width: 700px;
 }
